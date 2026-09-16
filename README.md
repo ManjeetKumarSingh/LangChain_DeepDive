@@ -130,3 +130,52 @@ xxhash                   4.0.1
 yarl                     1.25.1
 zstandard                0.25.0
 ```
+
+### Important topics we need to learn about the Langchain is :
+
+```python
+Runnable
+   │
+   ├── RunnableSequence
+   ├── RunnableParallel
+   ├── RunnableLambda
+   ├── RunnablePassthrough
+   └── RunnableBranch
+
+Chain
+   │
+   ├── Chain
+   ├── LLMChain
+   ├── MemoryChain
+   ├── SequentialChain
+   ├── ParallelChain
+   ├── EventChain
+   ├── EventLoopChain
+   ├── EventLoopChainWithCallback
+   ├── EventLoopChainWithQueue
+   ├── EventLoopChainWithQueueAndCallback
+   ├── EventLoopChainWithQueueAndCallbackWithTimeout
+   ├── EventLoopChainWithQueueAndCallbackWithTimeoutAndRetry
+   ├── EventLoopChainWithQueueAndCallbackWithTimeoutAndRetryAndConcurrency
+   ├── EventLoopChainWithQueueAndCallbackWithTimeoutAndRetryAndConcurrencyAndMaxConcurrency
+   ├── EventLoopChainWithQueueAndCallbackWithTimeoutAndRetryAndConcurrencyAndMaxConcurrencyAndMaxQueueSiz
+
+   ```
+
+### Langchain chaining concepts
+*LCEL / Runnable*
+This is one of the most important LangChain concepts.
+`chains/basic_chain.py`
+
+```python
+from app.models.chat_model import model
+from app.prompts.chat_prompts import chat_prompt
+
+chain = chat_prompt | model
+      
+response = chain.invoke({
+"question": "What is RAG?"
+})
+
+```
+
