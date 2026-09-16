@@ -1,0 +1,15 @@
+
+  langchain 
+  langchain-core 
+  langgraph 
+  langchain-community 
+  langchain-text-splitters 
+  pydantic 
+  pydantic-settings 
+  fastapi 
+  uvicorn
+  boto3 
+  langchain-aws 
+  python-dotenv 
+  httpx ==0.23.0
+  tenacity
