@@ -2,7 +2,7 @@
 
 #### Author:  Manjeet KUMAR ( AI & Cloud Architect)
 
-```
+```python
 pip install \
   langchain \
   langchain-core \
