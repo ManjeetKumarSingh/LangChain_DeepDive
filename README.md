@@ -2,7 +2,7 @@
 
 #### Author:  Manjeet KUMAR ( AI & Cloud Architect)
 
-```python
+```bash
 pip install \
   langchain \
   langchain-core \
@@ -60,7 +60,7 @@ pip install \
 
 * `pip list` 
 
-```
+```json
 Package                  Version
 ------------------------ -----------
 aiohappyeyeballs         2.7.1
