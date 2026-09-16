@@ -1,6 +1,15 @@
 
 
-#### Author:  Manjeet KUMAR ( AI & Cloud Architect)
+<p align="center">
+
+### LangChain Enterprise AI
+<strong>Author: Manjeet KUMAR</strong><br>
+<em>AI & Cloud Architect</em>
+
+<img src="https://img.shields.io/badge/LangChain-Agentic%20AI-1C3C3C?style=for-the-badge">
+<img src="https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white">
+
+</p>
 
 ```bash
 pip install \
@@ -18,7 +27,6 @@ pip install \
   python-dotenv \
   httpx \
   tenacity
-
 ```
 ### How to install these packages using the requirements.txt file 
 
@@ -133,7 +141,7 @@ zstandard                0.25.0
 
 ### Important topics we need to learn about the Langchain is :
 
-```python
+```text
 Runnable
    │
    ├── RunnableSequence
